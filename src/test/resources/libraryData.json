@@ -1,0 +1,16 @@
+{
+  "readerId": 101,
+  "bookId": 201,
+  "readerName": "John",
+  "readerEmail": "john@fmail.com",
+  "readerPhone": "9876543210",
+  "issueDate": "2022-10-01T18:30:00.000+00:00",
+  "returnDate": "2022-10-02T18:30:00.000+00:00",
+  "books": [
+    {
+      "bookId": 1,
+      "bookName": "hj",
+      "bookAuthor": "hjb"
+    }
+  ]
+}
