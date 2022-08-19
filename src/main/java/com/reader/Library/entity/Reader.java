@@ -38,10 +38,10 @@ public class Reader {
     private String readerPhone;
 
     @Column(name = "issue_date")
-    private LocalDate issueDate;
+    private Date issueDate;
 
     @Column(name = "return_date")
-    private LocalDate returnDate;
+    private Date returnDate;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     @JoinColumn(name = "book_id", nullable = false)

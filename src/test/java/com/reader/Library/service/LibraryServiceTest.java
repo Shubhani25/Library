@@ -20,5 +20,12 @@ public class LibraryServiceTest {
 
     private static final String LIBRARY_JSON_FILE_PATH = "/libraryData.json";
 
+    @Test
+    public void testFindByReaderIdAndBookId() throws Exception{
+        Reader reader = JsonUtility.getReaderRequest(LIBRARY_JSON_FILE_PATH);
+        Reader savedReader = libraryService.saveReader(reader);
+        Reader fetchedReader = libraryService.fetchByReaderIdAndBookId(990, 9010);
+        assert fetchedReader != null;
+    }
 
 }

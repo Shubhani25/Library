@@ -6,8 +6,8 @@ import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.readers.LibraryAPI.entity.Book;
-import com.readers.LibraryAPI.entity.Reader;
+import com.reader.Library.entity.Book;
+import com.reader.Library.entity.Reader;
 
 import java.net.URI;
 import java.nio.file.Files;
